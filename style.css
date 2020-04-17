@@ -69,19 +69,19 @@ a{
     padding-left: 0;
     padding-bottom: 0;
 }
-/* animations / utilities */s
+/* animations / utilities */
 .section-2 a:hover{
     font-size: 1.3rem;
     color: #fff;
     cursor: pointer;
-    transition: 0.3s;
+    transition: 0.2s;
 }
 
 .section-2 p:hover{
     font-size: 1.3rem;
     color: #fff;
     cursor: pointer;
-    transition: 0.3s;
+    transition: 0.2s;
 }
 
 .section-1 a:hover{

@@ -1,5 +1,5 @@
 /* global */
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 .grid-2{
     display: grid;
@@ -9,18 +9,22 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
-    background-color: #101214;
-    color: #7A7C80;
-
+    font-family: 'Rubik', sans-serif;
+    background-color: #2E3440;
+    color:#D8DEE9;
 }
 
 h2,.white{
-    color: #fff;
+    color: #ECEFF4;
+}
+
+h2,#title{
+    font-family: 'Rubik', sans-serif;
+    font-weight: bolder;
 }
 
 a{
-    color: #7A7C80;
+    color: #D8DEE9;
     text-decoration: none;
 }
 /* section 1 */
@@ -69,23 +73,24 @@ a{
     padding-left: 0;
     padding-bottom: 0;
 }
+
 /* animations / utilities */
 .section-2 a:hover{
     font-size: 1.3rem;
-    color: #fff;
+    color: #8FBCBB;
     cursor: pointer;
     transition: 0.2s;
 }
 
 .section-2 p:hover{
     font-size: 1.3rem;
-    color: #fff;
+    color: #8FBCBB;
     cursor: pointer;
     transition: 0.2s;
 }
 
 .section-1 a:hover{
-    color: #fff;
+    color: #81A1C1;
     cursor: pointer;
     transition: 0.3s;
 }
@@ -94,6 +99,7 @@ a{
     position: relative;
     padding-left: 10px;
 }
+
 
 /* media queres */
 @media(max-width:780px){

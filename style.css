@@ -102,3 +102,10 @@ a{
         padding-top: 2rem;
     }
 }
+
+.copy-right{
+    color: #7A7C80;
+    font-size: 0.75rem;
+    padding: 20px 0;
+    text-align: center;
+}

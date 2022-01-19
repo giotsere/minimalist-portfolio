@@ -3,7 +3,7 @@
 
 .grid-2{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: 0.6fr 1fr;
 }
 
 body{
@@ -27,8 +27,12 @@ a{
 .section-1{
     padding-top: 40vh;
     text-align: center;
+    
 }
-
+.stick{
+    position: fixed;
+    margin-left: 6%;
+}
 .section-1 p{
     font-size: 1.1rem;
     padding-bottom: 10px;
@@ -46,8 +50,7 @@ a{
 }
 /* section 2 */
 .section-2{
-    padding-top: 10vh;
-    width: 70%;
+    width: 95%;
 }
 
 .section-2 h2{
@@ -100,5 +103,9 @@ a{
         padding: 0;
         padding-left: 1.5rem;
         padding-top: 2rem;
+    }
+    .stick{
+        position: static;
+        margin-left: 0%;
     }
 }

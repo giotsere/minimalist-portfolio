@@ -102,37 +102,23 @@ a{
         padding-top: 2rem;
     }
 }
-/* Style the navigation bar */
-.navbar {
-    width: 100%;
-    background-color: #555;
-    overflow: auto;
+.vertical-menu {
+    width: 200px; /* Set a width if you like */
   }
   
-  /* Navbar links */
-  .navbar a {
-    float: left;
-    text-align: center;
-    padding: 12px;
+  .vertical-menu a {
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+  }
+  
+  .vertical-menu a.active {
+    background-color: #04AA6D; /* Add a green color to the "active/current" link */
     color: white;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  /* Navbar links on mouse-over */
-  .navbar a:hover {
-    background-color: #000;
-  }
-  
-  /* Current/active navbar link */
-  .active {
-    background-color: #04AA6D;
-  }
-  
-  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
-  @media screen and (max-width: 500px) {
-    .navbar a {
-      float: none;
-      display: block;
-    }
   }

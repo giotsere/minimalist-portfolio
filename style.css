@@ -10,8 +10,8 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: #FFCDDA;
-    color: #7A7C80;
+    background-color: #ffd6e0;
+    color: #b08993;
 
 }
 
@@ -20,7 +20,7 @@ h2,.white{
 }
 
 a{
-    color: #7A7C80;
+    color: #b08993;
     text-decoration: none;
 }
 /* section 1 */

@@ -10,17 +10,17 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: #101214;
+    background-color: #00d9ff;
     color: #7A7C80;
 
 }
 
 h2,.white{
-    color: #fff;
+    color: rgb(192, 0, 0);
 }
 
 a{
-    color: #7A7C80;
+    color: #1e8000;
     text-decoration: none;
 }
 /* section 1 */
@@ -71,13 +71,13 @@ a{
 /* animations / utilities */
 .section-2 a:hover{
     font-size: 1.3rem;
-    color: #fff;
+    color: rgb(196, 0, 245);
     cursor: pointer;
     transition: 0.2s;
 }
 
 .section-1 a:hover{
-    color: #fff;
+    color: rgb(182, 202, 0);
     cursor: pointer;
     transition: 0.3s;
 }
@@ -105,7 +105,7 @@ a{
 /* Navbar container */
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(245, 2, 192);
     font-family: Arial;
   }
   
@@ -139,7 +139,7 @@ a{
   
   /* Add a red background color to navbar links on hover */
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: rgb(255, 187, 0);
   }
   
   /* Dropdown content (hidden by default) */

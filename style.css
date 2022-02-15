@@ -10,17 +10,17 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: #00d9ff;
+    background-color: #0095eb;
     color: #7A7C80;
 
 }
 
 h2,.white{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 a{
-    color: #30cc01;
+    color: #96ac35;
     text-decoration: none;
 }
 /* section 1 */
@@ -71,13 +71,13 @@ a{
 /* animations / utilities */
 .section-2 a:hover{
     font-size: 1.3rem;
-    color: rgb(65, 65, 65);
+    color: rgb(0, 0, 0);
     cursor: pointer;
     transition: 0.2s;
 }
 
 .section-1 a:hover{
-    color: rgb(182, 202, 0);
+    color: rgb(255, 255, 255);
     cursor: pointer;
     transition: 0.3s;
 }
@@ -146,7 +146,7 @@ a{
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #00d9ff;
+    background-color: #f8f8f8;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;

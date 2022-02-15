@@ -16,7 +16,7 @@ body{
 }
 
 h2,.white{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 a{
@@ -105,7 +105,7 @@ a{
 /* Navbar container */
 .navbar {
     overflow: hidden;
-    background-color: rgb(148, 148, 148);
+    background-color: rgb(255, 255, 255);
     font-family: Arial;
   }
   

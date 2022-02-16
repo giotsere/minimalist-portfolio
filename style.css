@@ -12,7 +12,7 @@ body{
     font-family: 'Roboto', sans-serif;
     background-image: url("beach.jpeg");
     background-color: #cccccc;
-    background-size: contain, cover;
+    background-size: contain;
     /*background-image: url("hiking.jpeg");*/
     /*background-color: #0095eb;*/
     color: #000000;

@@ -13,6 +13,7 @@ body{
     background-image: url("beach.jpeg");
     background-color: #cccccc;
     background-size: contain;
+    background-repeat: no-repeat;
     /*background-image: url("hiking.jpeg");*/
     /*background-color: #0095eb;*/
     color: #ffffff;

@@ -25,6 +25,15 @@
 <div class="navbar">
     <a href="https://adrianw90.github.io/adrian-whitehurst.github.io/">Home</a>
     <a href="https://docs.google.com/document/d/1fl67mDOSMPVpGnf8ulGyG6YE_3R7outDQj38e2_VJH4/edit?usp=sharing">Resume</a>
+    <div>
+      <button onclick="darkMode()">Darkmode</button>
+    </div>
+    <script>
+      function darkMode() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+      }
+    </script>
     <div class="dropdown">
       <button class="dropbtn">Extra
         <i class="fa fa-caret-down"></i>
@@ -46,15 +55,6 @@
             <a href="https://www.linkedin.com/in/adrianw90/"><i class="fab fa-linkedin"></i></a>
             <a href="https://github.com/Adrianw90"><i class="fab fa-github"></i></a>
         </div>
-        <div>
-          <button onclick="darkMode()">Darkmode</button>
-        </div>
-        <script>
-          function darkMode() {
-            var element = document.body;
-            element.classList.toggle("dark-mode");
-          }
-        </script>
         <div class="section-2">
             <h2>Biography</h2>
             <p>Hello, I am currently a Sophomore studying Computer Science at the illustrious Clark Atlanta University.  Prior to that, I served in the United States Air Force for nine years where I operated in the Transportation/Logistics career field.  I've lived in California, Florida and South Korea.  I chose to major in Computer Science because I love problem solving and figuring out how to improve upon something or make it more efficient.  Also, the world of computing is so vast and floating with endless knowledge, that I just want to learn as much as possible.</p>

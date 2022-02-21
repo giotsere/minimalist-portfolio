@@ -175,6 +175,11 @@ a{
     display: block;
 }
 
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
 /* Center images*/
 .center {
     display: block;

@@ -7,11 +7,42 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Projects</title>
+    <style>
+        body {
+          padding: 25px;
+          background-color: white;
+          color: black;
+          font-size: 25px;
+        }
+        .dark-mode {
+          background-color: black;
+          color: white;
+        }
+    </style>
 </head>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <div class="navbar">
     <a href="https://adrianw90.github.io/adrian-whitehurst.github.io/">Home</a>
-</div>
+    <a href="https://docs.google.com/document/d/1fl67mDOSMPVpGnf8ulGyG6YE_3R7outDQj38e2_VJH4/edit?usp=sharing">Resume</a>
+    <div class="dropdown">
+      <button class="dropbtn">Extra
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="projects.html">Projects</a>
+        <a href="awards.html">Awards</a>
+      </div>
+    </div>
+    <div>
+      <button onclick="darkMode()">Darkmode</button>
+    </div>
+    <script>
+      function darkMode() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+      }
+    </script>
+  </div>
 <style>
     h1 {text-align: center;}
     p {text-align: center;}

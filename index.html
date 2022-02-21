@@ -7,6 +7,18 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Adrian Whitehurst</title>
+    <style>
+      body {
+        padding: 25px;
+        background-color: white;
+        color: black;
+        font-size: 25px;
+      }
+      .dark-mode {
+        background-color: black;
+        color: white;
+      }
+    </style>
 </head>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -34,6 +46,15 @@
             <a href="https://www.linkedin.com/in/adrianw90/"><i class="fab fa-linkedin"></i></a>
             <a href="https://github.com/Adrianw90"><i class="fab fa-github"></i></a>
         </div>
+        <div>
+          <button onclick="darkMode()">Darkmode</button>
+        </div>
+        <script>
+          function darkMode() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+          }
+        </script>
         <div class="section-2">
             <h2>Biography</h2>
             <p>Hello, I am currently a Sophomore studying Computer Science at the illustrious Clark Atlanta University.  Prior to that, I served in the United States Air Force for nine years where I operated in the Transportation/Logistics career field.  I've lived in California, Florida and South Korea.  I chose to major in Computer Science because I love problem solving and figuring out how to improve upon something or make it more efficient.  Also, the world of computing is so vast and floating with endless knowledge, that I just want to learn as much as possible.</p>

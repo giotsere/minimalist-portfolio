@@ -174,3 +174,11 @@ a{
   .dropdown:hover .dropdown-content {
     display: block;
 }
+
+/* Center images*/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }

@@ -187,10 +187,6 @@ a{
     margin-right: auto;
     width: 50%;
   }
-/*side-by-side images using flex*/
-.row {
-    display: flex;
-  }
   
   .column {
     flex: 33.33%;

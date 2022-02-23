@@ -38,6 +38,10 @@ body {
   background-color: #b08993;
   color: white;
 }
+.dark-mode {
+  background-color: black;
+  color: white;
+   
 </style>
     <div class="topnav">
   <a class="active" href="#home">Home</a>
@@ -52,6 +56,13 @@ body {
             <h2>Szaria Thompson</h2>
             <p>Raleigh, NC</p>
             <p>Email: szariathompson3@gmail.com</p>
+            <button onclick="myFunction()">Toggle dark mode</button>
+            <script>
+            function myFunction() {
+                var element = document.body;
+                element.classList.toggle("dark-mode");
+}
+</script>
             
         </div>
         <div class="section-2">

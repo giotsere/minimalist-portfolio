@@ -59,6 +59,7 @@ a{
     font-size: 1.1rem;
     padding-bottom: 10px;
     margin:0;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.05);
 }
 
 .section-2 a{
@@ -86,6 +87,18 @@ a{
     position: relative;
     padding-left: 10px;
 }
+.button {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+  }
 
 /* media queres */
 @media(max-width:780px){

@@ -99,6 +99,11 @@ a{
     cursor: pointer;
     border-radius: 16px;
   }
+  .button:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: medium;
+  }
 
 /* media queres */
 @media(max-width:780px){

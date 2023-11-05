@@ -67,6 +67,7 @@ a{
     font-size: 1.2rem;
     padding-left: 0;
     width: 100px;
+    word-break: keep-all; /* 添加这行来控制每行的字数 */
 }
 /* animations / utilities */
 .section-2 a:hover{

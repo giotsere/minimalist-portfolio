@@ -25,8 +25,11 @@ a{
 }
 /* section 1 */
 .section-1{
-    padding-top: 40vh;
+    padding-top: 30vh;
     text-align: center;
+
+    
+   
 }
 
 .section-1 p{
@@ -94,11 +97,25 @@ a{
     }
     .section-1{
         padding:0;
-        padding-top: 5rem;
+        padding-top: 1rem;
     }
     .section-2{
         padding: 0;
         padding-left: 1.5rem;
         padding-top: 2rem;
     }
+}
+
+
+/****/
+
+.image-container{
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
 }

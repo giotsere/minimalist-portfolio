@@ -6,41 +6,76 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
-        <title>Wil my bag fit</title>
+        <title>Will my bag fit</title>
     </head>
     <body>
         <div class="wrapper">
-            <div class="section-1">
-                <object data="resources/icons/shopping-bag-check.svg" type="image/svg+xml" width="100" height="100">
-                    <img src="resources/icons/shopping-bag-check.svg"/>
+            <header class="section-1">
+                <object data="resources/icons/shopping-bag-check.svg" type="image/svg+xml" width="90" height="90">
+                    <img src="resources/icons/shopping-bag-check.svg" alt="Luggage check icon" width="90" height="90"/>
                 </object>
-                <h2>Will my bag fit</h2>
-                <h3>Check if your bag will pass airline's Carry-on restrictions</h3>
-                <a href="https://github.com/MPBaptista/will-my-bag-fit"><i class="fab fa-github"></i> Github</a>
-            </div>
-            <div class="section-2">
-                <h2>Dimensions</h2>
-                <label for="units">Units:</label>
-                <select id="units" onchange="toggleUnits()">
-                    <option value="cm">cm</option>
-                    <option value="in">in</option>
-                </select>
-                <br>
-                <label for="height">Height:</label>
-                <input type="number" id="height" name="height" oninput="toggleUnits()">
-                <br>
-                <label for="width">Width:</label>
-                <input type="number" id="width" name="width" oninput="toggleUnits()">
-                <br>
-                <label for="depth">Depth:</label>
-                <input type="number" id="depth" name="depth" oninput="toggleUnits()">
-                <br>
-                <div id="airlines-list"></div>                
-            </div>  
+                <h1>Will my bag fit?</h1>
+                <p>Check if your carry-on luggage passes airline size allowances in real-time</p>
+                <div class="header-links">
+                    <a href="https://github.com/MPBaptista/will-my-bag-fit" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
+                    <button id="view-all-btn" type="button" class="link-button" onclick="openAllAirlinesModal()"><i class="fas fa-plane"></i> View Supported Airlines</button>
+                </div>
+            </header>
+
+            <main class="section-2">
+                <div class="card-header">
+                    <h2>Enter Dimensions</h2>
+                    <div class="units-toggle-container">
+                        <label for="units">Units:</label>
+                        <select id="units" onchange="handleUnitChange()">
+                            <option value="cm">cm</option>
+                            <option value="in">inches</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="inputs-grid">
+                    <div class="input-field">
+                        <label for="height">Height (<span class="unit-label">cm</span>)</label>
+                        <input type="number" id="height" name="height" min="0" step="any" oninput="handleDimensionInput()" placeholder="e.g. 55">
+                    </div>
+                    <div class="input-field">
+                        <label for="width">Width (<span class="unit-label">cm</span>)</label>
+                        <input type="number" id="width" name="width" min="0" step="any" oninput="handleDimensionInput()" placeholder="e.g. 40">
+                    </div>
+                    <div class="input-field">
+                        <label for="depth">Depth (<span class="unit-label">cm</span>)</label>
+                        <input type="number" id="depth" name="depth" min="0" step="any" oninput="handleDimensionInput()" placeholder="e.g. 20">
+                    </div>
+                </div>
+
+                <div class="results-container">
+                    <div id="results-summary" class="results-summary"></div>
+                    <div id="airlines-list"></div>
+                </div>
+            </main>
         </div>
+
+        <!-- Modal for viewing all supported airlines -->
+        <div id="all-airlines-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" style="display:none;">
+            <div class="modal-backdrop" onclick="closeAllAirlinesModal()"></div>
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 id="modal-title"><i class="fas fa-globe-americas"></i> Supported Airlines Directory</h3>
+                    <button type="button" class="close-btn" onclick="closeAllAirlinesModal()" aria-label="Close modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <p class="modal-subtitle">Browse carry-on limits for all currently catalogued airlines.</p>
+                    <input type="text" id="modal-search" placeholder="Search by airline name..." onkeyup="filterDirectory()">
+                    <div id="modal-airlines-container" class="directory-list-container"></div>
+                </div>
+            </div>
+        </div>
+
         <footer>
-            <p>&copy; 2024 MPBaptista // <a href="dimensions_lib.json">Currently supported airlines</a> </p>
+            <p>&copy; 2024 MPBaptista | Licensed under <a href="LICENSE.md">GPL-3.0</a> &bull; <button type="button" class="footer-link-btn" onclick="openAllAirlinesModal()">Supported airlines</button></p>
         </footer>
+
         <script src="script.js"></script>
     </body>
 </html>

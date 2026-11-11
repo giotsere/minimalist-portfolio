@@ -1,119 +1,59 @@
 [
-    {
-        "airline": "EasyJet",
-        "dimensions": {
-            "unit": "cm",
-            "height": 45,
-            "width": 36,
-            "depth": 20
-        }
-    },
-    {
-        "airline": "Ryanair",
-        "dimensions": {
-            "unit": "cm",
-            "height": 40,
-            "width": 20,
-            "depth": 25
-        }
-    },
-    {
-        "airline": "TAP",
-        "dimensions": {
-            "unit": "cm",
-            "height": 55,
-            "width": 40,
-            "depth": 25
-        }
-    },
-    {
-        "airline": "Wizz Air",
-        "dimensions": {
-            "unit": "cm",
-            "height": 40,
-            "width": 30,
-            "depth": 20
-        }
-    },
-    {
-        "airline": "Sata",
-        "dimensions": {
-            "unit": "cm",
-            "height": 55,
-            "width": 40,
-            "depth": 20
-        }
-    },
-    {
-        "airline": "Swiss",
-        "dimensions": {
-            "unit": "cm",
-            "height": 55,
-            "width": 40,
-            "depth": 23
-        }
-    },
-    {
-        "airline": "Lufthansa",
-        "dimensions": {
-            "unit": "cm",
-            "height": 55,
-            "width": 40,
-            "depth": 23
-        }
-    },
-    {
-        "airline": "Delta",
-        "dimensions": {
-            "unit": "cm",
-            "height": 56,
-            "width": 35,
-            "depth": 23
-        }
-    },
-    {
-        "airline": "American",
-        "dimensions": {
-            "unit": "cm",
-            "height": 56,
-            "width": 36,
-            "depth": 23
-        }
-    },
-    {
-        "airline": "United",
-        "dimensions": {
-            "unit": "cm",
-            "height": 56,
-            "width": 35,
-            "depth": 23
-        }
-    },
-    {
-        "airline": "Air France",
-        "dimensions": {
-            "unit": "cm",
-            "height": 55,
-            "width": 35,
-            "depth": 25
-        }
-    },
-    {
-        "airline": "Turkish",
-        "dimensions": {
-            "unit": "cm",
-            "height": 55,
-            "width": 40,
-            "depth": 23
-        }
-    },
-    {
-        "airline": "Air Canada",
-        "dimensions": {
-            "unit": "cm",
-            "height": 55,
-            "width": 40,
-            "depth": 23
-        }
-    }
+    { "airline": "Aegean Airlines", "dimensions": { "height": 56, "width": 45, "depth": 25 } },
+    { "airline": "Aer Lingus", "dimensions": { "height": 55, "width": 40, "depth": 24 } },
+    { "airline": "Aeromexico", "dimensions": { "height": 55, "width": 40, "depth": 25 } },
+    { "airline": "Air Algerie", "dimensions": { "height": 55, "width": 35, "depth": 25 } },
+    { "airline": "Air Canada", "dimensions": { "height": 55, "width": 40, "depth": 23 } },
+    { "airline": "Air China", "dimensions": { "height": 55, "width": 40, "depth": 20 } },
+    { "airline": "Air Europa", "dimensions": { "height": 55, "width": 35, "depth": 25 } },
+    { "airline": "Air France", "dimensions": { "height": 55, "width": 35, "depth": 25 } },
+    { "airline": "Air India", "dimensions": { "height": 55, "width": 35, "depth": 25 } },
+    { "airline": "Air New Zealand", "dimensions": { "height": 56, "width": 36, "depth": 23 } },
+    { "airline": "Alaska Airlines", "dimensions": { "height": 56, "width": 36, "depth": 23 } },
+    { "airline": "All Nippon Airways (ANA)", "dimensions": { "height": 55, "width": 40, "depth": 25 } },
+    { "airline": "American Airlines", "dimensions": { "height": 56, "width": 36, "depth": 23 } },
+    { "airline": "Avianca", "dimensions": { "height": 55, "width": 35, "depth": 25 } },
+    { "airline": "Azul Brazilian Airlines", "dimensions": { "height": 55, "width": 35, "depth": 25 } },
+    { "airline": "British Airways", "dimensions": { "height": 56, "width": 45, "depth": 25 } },
+    { "airline": "Cathay Pacific", "dimensions": { "height": 56, "width": 36, "depth": 23 } },
+    { "airline": "Copa Airlines", "dimensions": { "height": 56, "width": 36, "depth": 26 } },
+    { "airline": "Delta Air Lines", "dimensions": { "height": 56, "width": 35, "depth": 23 } },
+    { "airline": "EasyJet", "dimensions": { "height": 45, "width": 36, "depth": 20 } },
+    { "airline": "EgyptAir", "dimensions": { "height": 55, "width": 40, "depth": 23 } },
+    { "airline": "Emirates", "dimensions": { "height": 55, "width": 38, "depth": 20 } },
+    { "airline": "Ethiopian Airlines", "dimensions": { "height": 55, "width": 40, "depth": 23 } },
+    { "airline": "Etihad Airways", "dimensions": { "height": 56, "width": 36, "depth": 23 } },
+    { "airline": "Finnair", "dimensions": { "height": 55, "width": 40, "depth": 23 } },
+    { "airline": "Gol Linhas Aereas", "dimensions": { "height": 55, "width": 35, "depth": 25 } },
+    { "airline": "Iberia", "dimensions": { "height": 56, "width": 40, "depth": 25 } },
+    { "airline": "Icelandair", "dimensions": { "height": 55, "width": 40, "depth": 20 } },
+    { "airline": "Japan Airlines", "dimensions": { "height": 55, "width": 40, "depth": 25 } },
+    { "airline": "JetBlue Airways", "dimensions": { "height": 56, "width": 36, "depth": 23 } },
+    { "airline": "KLM", "dimensions": { "height": 55, "width": 35, "depth": 25 } },
+    { "airline": "Korean Air", "dimensions": { "height": 55, "width": 40, "depth": 20 } },
+    { "airline": "LATAM Airlines", "dimensions": { "height": 55, "width": 35, "depth": 25 } },
+    { "airline": "LOT Polish Airlines", "dimensions": { "height": 55, "width": 40, "depth": 23 } },
+    { "airline": "Lufthansa", "dimensions": { "height": 55, "width": 40, "depth": 23 } },
+    { "airline": "Malaysia Airlines", "dimensions": { "height": 56, "width": 36, "depth": 23 } },
+    { "airline": "Norwegian Air", "dimensions": { "height": 55, "width": 40, "depth": 23 } },
+    { "airline": "Pegasus Airlines", "dimensions": { "height": 55, "width": 40, "depth": 20 } },
+    { "airline": "Qantas", "dimensions": { "height": 56, "width": 36, "depth": 23 } },
+    { "airline": "Qatar Airways", "dimensions": { "height": 50, "width": 37, "depth": 25 } },
+    { "airline": "Royal Air Maroc", "dimensions": { "height": 55, "width": 40, "depth": 20 } },
+    { "airline": "Ryanair", "dimensions": { "height": 40, "width": 25, "depth": 20 } },
+    { "airline": "SAS Scandinavian Airlines", "dimensions": { "height": 55, "width": 40, "depth": 23 } },
+    { "airline": "SATA Azores Airlines", "dimensions": { "height": 55, "width": 40, "depth": 20 } },
+    { "airline": "Singapore Airlines", "dimensions": { "height": 56, "width": 36, "depth": 23 } },
+    { "airline": "South African Airways", "dimensions": { "height": 56, "width": 36, "depth": 23 } },
+    { "airline": "Southwest Airlines", "dimensions": { "height": 61, "width": 41, "depth": 28 } },
+    { "airline": "Spirit Airlines", "dimensions": { "height": 56, "width": 46, "depth": 25 } },
+    { "airline": "Swiss International", "dimensions": { "height": 55, "width": 40, "depth": 23 } },
+    { "airline": "TAP Air Portugal", "dimensions": { "height": 55, "width": 40, "depth": 20 } },
+    { "airline": "Thai Airways", "dimensions": { "height": 56, "width": 45, "depth": 25 } },
+    { "airline": "Turkish Airlines", "dimensions": { "height": 55, "width": 40, "depth": 23 } },
+    { "airline": "United Airlines", "dimensions": { "height": 56, "width": 35, "depth": 22 } },
+    { "airline": "Virgin Atlantic", "dimensions": { "height": 56, "width": 36, "depth": 23 } },
+    { "airline": "Virgin Australia", "dimensions": { "height": 56, "width": 36, "depth": 23 } },
+    { "airline": "Vueling", "dimensions": { "height": 55, "width": 40, "depth": 20 } },
+    { "airline": "Wizz Air", "dimensions": { "height": 40, "width": 30, "depth": 20 } }
 ]
